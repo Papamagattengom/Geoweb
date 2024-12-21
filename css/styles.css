@@ -1,0 +1,28 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#toolbar {
+    width: 100%;
+    background: #f4f4f4;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+}
+
+#map {
+    flex: 1;
+}
+
+#toolbar button {
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
